@@ -1,0 +1,581 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+  background-color: #f4f1eb;
+}
+.b-10 {
+  border-radius: 10px;
+}
+/* Header */
+.company_name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #e1ae99;
+}
+/* Header */
+
+/* Download center */
+
+.downLoadCenter h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #252726;
+}
+
+.downLoadCenter p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #373a3c;
+}
+.btnBlack {
+  background-color: black;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.btnBlack:hover {
+  background-color: black;
+  color: #e1ae99;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.tabsbg {
+  background-color: #e8e8e8;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.listing_part {
+  background-color: #fff;
+  padding: 10px 15px;
+}
+
+.tabsbg .col-md-12 button:nth-child(1) {
+  background-color: black;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.tabsbg .col-md-12 button:nth-child(2) {
+  background-color: #1d6d25;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.tabsbg .col-md-12 button:nth-child(3) {
+  background-color: #e21b1b;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.downloadBtn0012X {
+  width: 25px;
+  height: 5px;
+  background: #032339;
+  margin-top: 20px;
+  display: inline-block;
+  position: relative;
+}
+.downloadBtn0012X::after {
+  content: "";
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  position: absolute;
+  border: 9px solid transparent;
+  border-top-color: #032339;
+  box-sizing: border-box;
+  animation: bump 0.4s ease-in-out infinite alternate;
+}
+.downloadBtn0012X::before {
+  content: "";
+  left: 50%;
+  bottom: 17px;
+  transform: translate(-50%, 0);
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  background: #032339;
+  box-sizing: border-box;
+  animation: bump 0.4s ease-in-out infinite alternate;
+}
+
+@keyframes bump {
+  0% {
+    transform: translate(-50%, 5px);
+  }
+  100% {
+    transform: translate(-50%, -5px);
+  }
+}
+.RoundDiv {
+  max-width: 37px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffff;
+  border-radius: 100%;
+}
+.listfont {
+  display: flex;
+  gap: 1;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fe8700;
+}
+.uploadForm .col-12:nth-child(1) label {
+  color: #e1ae99;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.uploadForm .col-12:nth-child(1) input {
+  color: #ffffff;
+  background-color: #606060;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.uploadForm .col-12:nth-child(2) label {
+  color: #e1ae99;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.uploadForm .col-12:nth-child(3) label {
+  color: #e1ae99;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.uploadForm .col-12:nth-child(3) p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.uploadForm .col-12:nth-child(4) button {
+  background-color: #fe8700;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 15px;
+}
+.pdf_upload_button {
+  background-color: #e1ae99;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: 400px;
+}
+/* Download center */
+
+/* PDF VIEW PAGE */
+
+.bg-ContractPage{
+  background: #F4F1EB;
+  overflow-x: hidden;
+}
+
+.overFlowHeight::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+}
+.overFlowHeight::-webkit-scrollbar-track {
+  background: #e7e7e7;        /* color of the tracking area */
+}
+.overFlowHeight::-webkit-scrollbar-thumb {
+  background-color: orange;    /* color of the scroll thumb */
+  border-radius: 10px;       /* roundness of the scroll thumb */  /* creates padding around scroll thumb */
+}
+
+.footerDocSign{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+ background: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  text-align: center;
+}
+.footerDocSign .btn{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.footerDocSign .btn:hover{
+color: #FE8700;
+}
+/* PDF VIEW PAGE */
+/* Signed PAGE */
+.topTitle h1{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  
+}
+.topTitle p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+.sigCanvas{
+  background-color: #E7E7E7;;
+  width: 100%;
+}
+.clearbtn{     
+  margin-top: 5px;
+  background: rgb(253, 2, 2);
+  border: none;
+  font-family: "Roboto";
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 10px;
+  line-height: 18px;
+
+}
+.bottomText{
+        
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+
+}
+.semneaza:hover{
+  color: coral;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 86px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.semneaza{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 86px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+
+}
+/* Signed PAGE */
+
+/* Loader */
+.filterLeadsLoader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid;
+  border-color: #ff3d00 transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* End Loader */
+
+/* Pdf canva */
+.canvaspdf{
+  width: 100% !important;
+}
+.react-pdf__Page{
+  width: 100% !important;
+}
+#my-pdf{
+  width: 100% !important;
+}
+@media  (min-width:320px){
+  .PdfViewMobileRes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px 15px 135px 25px;
+
+}
+}
+@media (min-device-width: 320px) and (max-device-width: 768px) {
+  .PdfViewMobileRes{
+    display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding: 0px 15px 135px 25px;
+
+}
+  .bottomText{
+      
+    color: rgb(255, 255, 255);
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    text-align: center;
+
+}
+  .topTitle h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+  }
+  .topTitle p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+  }
+  .footerDocSign .btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .LogoIntermann{
+    width: 29%;
+  }
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .company_name {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #e1ae99;
+  }
+  .btnBlack {
+    background-color: black;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .downLoadCenter h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #252726;
+  }
+  .downLoadCenter p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #373a3c;
+  }
+  .tabsbg .col-md-12 button:nth-child(1) {
+    background-color: black;
+    color: #fff;
+    font-size: 9px;
+    border-radius: 30px;
+    padding: 10px 10px;
+  }
+  .tabsbg .col-md-12 button:nth-child(2) {
+    background-color: #1d6d25;
+    color: #fff;
+    font-size: 9px;
+    border-radius: 30px;
+    padding: 10px 10px;
+  }
+  .tabsbg .col-md-12 button:nth-child(3) {
+    background-color: #e21b1b;
+    color: #fff;
+    font-size: 8px;
+    border-radius: 30px;
+    padding: 10px 10px;
+  }
+  .listing_part {
+    background-color: #fff;
+    padding: 10px 10px;
+  }
+  .listfont {
+    display: grid;
+    gap: 1;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fe8700;
+  }
+  .pdf_upload_button {
+    background-color: #e1ae99;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 270px;
+  }
+  .uploadForm .col-12:nth-child(3) p {
+    color: #000000;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+  .iFrameView{
+    display: none;
+}
+}
+
+@media (min-width:768px){
+  .PdfViewMobileRes{
+    display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding: 0px 15px 135px 25px;
+
+}
+  .footerDocSign .btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .LogoIntermann{
+    width: 16%;
+  }
+  .iFrameView{
+    display: none;
+}
+
+}
+@media (min-width:1200px){
+  .PdfViewMobileRes{
+    display: none;
+}
+  .footerDocSign .btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .LogoIntermann{
+    width: 16%;
+  }
+  .iFrameView{
+    display: initial;
+}
+
+}
+@media (min-width:1400px){
+  .footerDocSign .btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+.LogoIntermann{
+  width: 16%;
+}
+.iFrameView{
+  display: initial;
+}
+.PdfViewMobileRes{
+  display: none;
+}
+
+}
